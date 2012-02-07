@@ -4,4 +4,4 @@ $(function(){
 	$('.alert-message').alert();
 
 
-}(jQuery);
+}(jQuery));

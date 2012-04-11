@@ -21,92 +21,102 @@
 	<div class="navbar navbar-fixed-top">
 		<div class="navbar-inner">
 			<div class="container" style="width: 100%;">
+				
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+				</a>
+				
 				<a class="brand" href="http://typo3.org" style="margin-left: 0px;">TYPO3</a>
-				<ul class="nav pull-right">
-					<li class="dropdown" id="navbar-menu-shortcuts">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" href="navbar-menu-shortcuts">
-							Shortcuts
-							<b class="caret"></b>
-						</a>
-						<ul class="dropdown-menu">
-							<li><a href="#">User List</a></li>
-							<li><a href="#">Status Report</a></li>
-							<li><a href="#">Messages</a></li>
-						</ul>
-					</li>
+
+				<div class="nav-collapse">
+					<ul class="nav pull-right">
+						<li class="dropdown" id="navbar-menu-shortcuts">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" href="navbar-menu-shortcuts">
+								Shortcuts
+								<b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">User List</a></li>
+								<li><a href="#">Status Report</a></li>
+								<li><a href="#">Messages</a></li>
+							</ul>
+						</li>
 					
-					<li class="dropdown" id="navbar-menu-cache">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" href="navbar-menu-cache">
-							Cache
-							<b class="caret"></b>
-						</a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Clear All Caches</a></li>
-							<li><a href="#">Clear Page Cache</a></li>
-							<li><a href="#">Clear Configuration Cache</a></li>
-						</ul>
-					</li>
+						<li class="dropdown" id="navbar-menu-cache">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" href="navbar-menu-cache">
+								Cache
+								<b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Clear All Caches</a></li>
+								<li><a href="#">Clear Page Cache</a></li>
+								<li><a href="#">Clear Configuration Cache</a></li>
+							</ul>
+						</li>
 					
-					<li class="dropdown" id="navbar-menu-workspaces">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" href="navbar-menu-workspaces">
-							Workspace
-							<b class="caret"></b>
-						</a>
-						<ul class="dropdown-menu">
-							<li><a href="#">LIVE</a></li>
-							<li><a href="#">DRAFT</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Workspaces Module</a></li>
-						</ul>
-					</li>
+						<li class="dropdown" id="navbar-menu-workspaces">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" href="navbar-menu-workspaces">
+								Workspace
+								<b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">LIVE</a></li>
+								<li><a href="#">DRAFT</a></li>
+								<li class="divider"></li>
+								<li><a href="#">Workspaces Module</a></li>
+							</ul>
+						</li>
 					
-					<li class="dropdown" id="navbar-menu-documents">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" href="navbar-menu-documents">
-							Documents
-							<b class="caret"></b>
-						</a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Page</a></li>
-							<li><a href="#">Content Element</a></li>
-							<li><a href="#">News</a></li>
-						</ul>
-					</li>
+						<li class="dropdown" id="navbar-menu-documents">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" href="navbar-menu-documents">
+								Documents
+								<b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Page</a></li>
+								<li><a href="#">Content Element</a></li>
+								<li><a href="#">News</a></li>
+							</ul>
+						</li>
 					
-					<li class="dropdown" id="navbar-menu-notifiactions">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" href="navbar-menu-notifiactions">
-							<span class="badge">3</span>&nbsp;
-							<b class="caret"></b>
-						</a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Scheduler Task finished</a></li>
-							<li><a href="#">Extension outdated</a></li>
-							<li><a href="#">Notifiaction X</a></li>
-						</ul>
-					</li>
+						<li class="dropdown" id="navbar-menu-notifiactions">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" href="navbar-menu-notifiactions">
+								<span class="badge">3</span>&nbsp;
+								<b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Scheduler Task finished</a></li>
+								<li><a href="#">Extension outdated</a></li>
+								<li><a href="#">Notifiaction X</a></li>
+							</ul>
+						</li>
 					
-					<form class="navbar-search">
-						<input type="text" class="search-query pull-left" placeholder="Search">
-					</form>
+						<form class="navbar-search">
+							<input type="text" class="search-query pull-left" placeholder="Search">
+						</form>
 					
-					<li class="vertical-divider"></li>
+						<li class="vertical-divider"></li>
 					
-					<li class="dropdown" id="navbar-menu-user">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" href="navbar-menu-user">
-							<i class="icon-user icon-white"></i>
-							<b class="caret"></b>
-						</a>
-						<ul class="dropdown-menu">
-							<li><a href="#">John Doe (john.doe)</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Messages</a></li>
-							<li><a href="#">Settings</a></li>
-							<li><a href="#">Log Out</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Help</a></li>
-						</ul>
-					</li>
+						<li class="dropdown" id="navbar-menu-user">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" href="navbar-menu-user">
+								<i class="icon-user icon-white"></i>
+								<b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">John Doe (john.doe)</a></li>
+								<li class="divider"></li>
+								<li><a href="#">Messages</a></li>
+								<li><a href="#">Settings</a></li>
+								<li><a href="#">Log Out</a></li>
+								<li class="divider"></li>
+								<li><a href="#">Help</a></li>
+							</ul>
+						</li>
 					
-				</ul>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
